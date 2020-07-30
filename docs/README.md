@@ -11,6 +11,8 @@ features:
   details: 感受生活中的点点滴滴
 - title: Skill
   details: 享受学习知识的过程
+- title: Portrait
+  details: 游离于颓靡之际,独醉于幻想之中
 footer: Since 2018 @LittleControl
 ---
 

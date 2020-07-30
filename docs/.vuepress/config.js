@@ -14,7 +14,7 @@ module.exports = {
             { text: 'GitHub', link: 'https://github.com/LittleControl', target: '_blank' }
         ],
         sidebar: {
-            'life': getLifeSidebar(),
+            '/life/': getLifeSidebar(),
             '/skill/': getSkillSidebar()
         },
         searchMaxSuggestions: 5,
@@ -25,7 +25,17 @@ module.exports = {
 
 function getLifeSidebar() {
     return [
-
+        '',
+        {
+            title: 'My Daily Life',
+            collapsable: true,
+            sidebarDepth: 2,
+            children: [
+                '25', '24', '23', '22', '21', '20',
+                '19', '18', '17', '16', '15', '14', '13', '12', '11', '10',
+                '09', '08', '07', '06', '05', '04', '03', '02', '01', '00'
+            ]
+        }
     ]
 }
 
@@ -37,8 +47,12 @@ function getSkillSidebar() {
             collapsable: true,
             sidebarDepth: 2,
             children: [
-                '00',
-                '01'
+                '31', '29', '28',
+                '27', '26', '25', '24', '23',
+                '21', '20', '19', '18', '17',
+                '16', '15', '14', '13', '12',
+                '11', '10', '09', '08', '07',
+                '06', '05', '04', '01', '00'
             ]
         },
         {
@@ -46,8 +60,7 @@ function getSkillSidebar() {
             collapsable: true,
             sidebarDepth: 2,
             children: [
-                '00',
-                '01'
+                '30', '22', '03', '02'
             ]
         }
     ]
