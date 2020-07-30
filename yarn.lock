@@ -1052,6 +1052,13 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
+"@vuepress/plugin-back-to-top@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.npm.taobao.org/@vuepress/plugin-back-to-top/download/@vuepress/plugin-back-to-top-1.5.2.tgz#d253be7f0b7c2b59ca8fabe10c2f517c96d83b0e"
+  integrity sha1-0lO+fwt8K1nKj6vhDC9RfJbYOw4=
+  dependencies:
+    lodash.debounce "^4.0.8"
+
 "@vuepress/plugin-last-updated@1.5.2":
   version "1.5.2"
   resolved "https://registry.npm.taobao.org/@vuepress/plugin-last-updated/download/@vuepress/plugin-last-updated-1.5.2.tgz?cache=0&sync_timestamp=1592143863183&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vuepress%2Fplugin-last-updated%2Fdownload%2F%40vuepress%2Fplugin-last-updated-1.5.2.tgz#daa2250edb40700e1fa0942561057b6aa00e4103"
@@ -1059,7 +1066,7 @@
   dependencies:
     cross-spawn "^6.0.5"
 
-"@vuepress/plugin-nprogress@1.5.2":
+"@vuepress/plugin-nprogress@1.5.2", "@vuepress/plugin-nprogress@^1.5.2":
   version "1.5.2"
   resolved "https://registry.npm.taobao.org/@vuepress/plugin-nprogress/download/@vuepress/plugin-nprogress-1.5.2.tgz?cache=0&sync_timestamp=1592143861362&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vuepress%2Fplugin-nprogress%2Fdownload%2F%40vuepress%2Fplugin-nprogress-1.5.2.tgz#3be249ee070380d0aca2bd2fb62eab6b4e284d1b"
   integrity sha1-O+JJ7gcDgNCsor0vti6ra04oTRs=

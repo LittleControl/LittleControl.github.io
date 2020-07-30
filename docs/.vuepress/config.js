@@ -20,7 +20,8 @@ module.exports = {
         searchMaxSuggestions: 5,
         lastUpdated: 'Last Updated',
         smoothScroll: true
-    }
+    },
+    plugins: ['@vuepress/back-to-top', '@vuepress/nprogress']
 }
 
 function getLifeSidebar() {

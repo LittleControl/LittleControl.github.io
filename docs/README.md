@@ -4,8 +4,8 @@ sidebar: false
 heroImage: /img/logo.jpg
 heroText: 小控酱的幻想乡
 tagline: 游离于颓靡之际,独醉于幻想之中
-actionText: 我的生活
-actionLink: /life/
+actionText: To Skill ->
+actionLink: /skill/
 features:
 - title: Life
   details: 感受生活中的点点滴滴
